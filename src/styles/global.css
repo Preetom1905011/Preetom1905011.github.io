@@ -35,6 +35,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   background: var(--bg);
+  overflow-x: clip;
 }
 
 a {
@@ -483,6 +484,112 @@ code {
   margin-bottom: 0;
 }
 
+.about-section {
+  margin-top: 3rem;
+}
+
+.about-section h2 {
+  margin-bottom: 1rem;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.experience-list,
+.awards-list {
+  display: grid;
+  gap: 1rem;
+  margin: 0;
+  padding-left: 1.5rem;
+  color: #3c4b63;
+}
+
+.experience-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.experience-list li > div {
+  display: grid;
+}
+
+.experience-list strong {
+  color: #000;
+}
+
+.experience-list time {
+  flex: 0 0 auto;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.awards-list li::marker,
+.experience-list li::marker {
+  color: var(--accent);
+}
+
+.hobbies-section > p {
+  color: #3c4b63;
+}
+
+.hobbies-gallery {
+  width: 100dvw;
+  margin-top: 1.5rem;
+  margin-left: calc(50% - 50dvw);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  padding: 0.5rem 1rem 1.5rem;
+  scrollbar-width: none;
+}
+
+.hobbies-gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.hobbies-gallery-track {
+  display: flex;
+  width: max-content;
+  min-width: 100%;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: 0 max(0.75rem, calc(50dvw - 11rem));
+}
+
+.polaroid {
+  flex: 0 0 220px;
+  margin: 0;
+  background: #fff;
+  box-shadow: 0 0.4rem 1rem rgba(31, 52, 71, 0.16);
+  padding: 0.7rem 0.7rem 1rem;
+  transform: rotate(-1deg);
+}
+
+.polaroid:nth-child(even) {
+  transform: rotate(1deg);
+}
+
+.polaroid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.polaroid figcaption {
+  padding-top: 0.65rem;
+  color: var(--text);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.empty-state {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .about-panels {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -600,6 +707,11 @@ code {
   .publication-card,
   .about-panels {
     grid-template-columns: 1fr;
+  }
+
+  .experience-list li {
+    flex-direction: column;
+    gap: 0.15rem;
   }
 }
 

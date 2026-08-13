@@ -33,9 +33,26 @@ export type Profile = {
 };
 
 export type NewsItem = {
+  day: string;
   month: string;
   year: number;
   content: RichTextSegment[];
+};
+
+export type ExperienceItem = {
+  position: string;
+  institution: string;
+  period: string;
+};
+
+export type AwardItem = {
+  title: string;
+};
+
+export type HobbyPhoto = {
+  src: string;
+  alt: string;
+  caption: string;
 };
 
 export type Publication = {
