@@ -8,7 +8,7 @@ export const profile: Profile = {
   location: "Ann Arbor, MI",
   email: "pkbiswas at umich.edu",
   // Add your photo to public/profile.jpg, then set photoUrl to "/profile.jpg".
-  photoUrl: "mugshot.jpg",
+  photoUrl: "./mugshot.jpg",
   bio: [
     {
       text: "I am a Ph.D. student in Computer Science at the University of Michigan. My research interests include machine learning, systems, and building reliable tools for real-world use.",
