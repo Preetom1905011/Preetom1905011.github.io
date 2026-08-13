@@ -6,12 +6,61 @@ export const profile: Profile = {
   title: "Ph.D. student in Computer Science & Engineering",
   affiliation: "University of Michigan",
   location: "Ann Arbor, MI",
-  email: "pkbiswas at umich.edu",
+  email: "pkbiswas@umich.edu",
   // Add your photo to public/profile.jpg, then set photoUrl to "/profile.jpg".
-  photoUrl: "./mugshot.jpg",
+  photoUrl: "./mugshot2.jpeg",
   bio: [
     {
-      text: "I am a Ph.D. student in Computer Science at the University of Michigan. My research interests include machine learning, systems, and building reliable tools for real-world use.",
+      text: "I am an incoming Ph.D. student in Computer Science & Engineering at the "
+    },
+    {
+      text: "University of Michigan",
+      bold: true,
+    },
+    {
+      text: ", advised by "
+    },
+    {
+      text: "Prof. Alexander Rodríguez",
+      href: "https://alrodri.engin.umich.edu/"
+    },
+    {
+      text: ". I completed my Master's (Thesis) and Bachelor's in Computer Science at Arizona State University, advised by "
+    },
+    {
+      text: "Prof. Giulia Pedrielli",
+      href: "https://julsped85.github.io/"
+    },
+    {
+      text: ". My research focuses on "
+    },
+    {
+      text: "causal inference, scenario generation, ",
+      bold: true,
+    },
+    {
+      text: "and " 
+    },
+    {
+      text: "AI for Science",
+      bold: true,
+    },
+    {
+      text: ", with applications in epidemiology, healthcare, and autonomous systems."
+    }
+  ],
+  researchFocus: [
+    {
+      title: "Causal Inference",
+      description: "Formal logic, counterfactual reasoning, and causal discovery in complex dynamic systems.",
+    },
+    {
+      title: "Scenario Generation",
+      description: "Rare-event generation and falsification using Gaussian-process surrogates, Bayesian optimization, and diffusion models.",
+    },
+    {
+      title: "AI for Science",
+      description: "Multi-agent systems, time-series forecasting, AI-driven scientific modeling for epidemiology and public health.",
     },
   ],
   about: [

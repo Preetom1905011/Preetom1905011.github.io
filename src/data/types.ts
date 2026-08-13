@@ -1,6 +1,13 @@
 export type RichTextSegment = {
   text: string;
   href?: string;
+  bold?: boolean;
+  italic?: boolean;
+};
+
+export type ResearchFocus = {
+  title: string;
+  description: string;
 };
 
 export type SocialKind = "email" | "github" | "linkedin" | "scholar" | "website";
@@ -20,6 +27,7 @@ export type Profile = {
   email: string;
   photoUrl?: string;
   bio: RichTextSegment[];
+  researchFocus: ResearchFocus[];
   about: string[];
   socials: SocialLink[];
 };

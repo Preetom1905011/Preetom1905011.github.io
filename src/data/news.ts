@@ -3,26 +3,32 @@ import type { NewsItem } from "./types";
 // Add new updates at the top. Use content segments when only some words need a link.
 export const news: NewsItem[] = [
   {
-    month: "May",
+    month: "July",
     year: 2026,
     content: [
-      { text: "I launched a new personal website with easily editable news and publication data." },
+      { text: "DiffTilT ", italic: true},
+      {text: "paper accepted in " },
+      {text: "International Conference on Embedded Software (EMSOFT).", bold: true, italic: true}
+    ],
+  },
+  {
+    month: "June",
+    year: 2026,
+    content: [
+      { text: "Presented " },
+      { text: "Causality by Abstraction ", italic: true },
+      { text: "paper in " },
+      {text: "International Conference on Neuro-Symbolic Systems (NeuS) ", bold: true, italic: true},
+      {text: "at the University of South California (USC)."}
+    
     ],
   },
   {
     month: "April",
     year: 2026,
     content: [
-      { text: "I presented recent research at " },
-      { text: "the University of Michigan", href: "https://umich.edu/" },
-      { text: "." },
-    ],
-  },
-  {
-    month: "January",
-    year: 2026,
-    content: [
-      { text: "Started a new research project on robust and practical machine learning systems." },
+      { text: "Accepted CSE Ph.D Admission offer from the " },
+      { text: "University of Michigan.", bold: true}
     ],
   },
 ];

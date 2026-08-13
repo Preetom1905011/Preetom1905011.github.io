@@ -17,6 +17,15 @@ export function Home() {
           <p className="lead">
             <RichText segments={profile.bio} />
           </p>
+          <ul className="research-focus-list">
+            {profile.researchFocus.map((focus) => (
+              <li key={focus.title}>
+                <strong>{focus.title}</strong>
+                <br />
+                {focus.description}
+              </li>
+            ))}
+          </ul>
         </section>
 
         <section className="content-card">
@@ -50,7 +59,7 @@ export function Home() {
             </div>
           </div>
           <ul className="services-list">
-            <li>Reviewer: KDD 2026, PLOS ONE, IEEE</li>
+            <li><b>Reviewer</b>: <i>KDD 2026, PLOS ONE, IEEE Trans. on Automation Science & Eng.</i></li>
           </ul>
         </section>
       </div>
