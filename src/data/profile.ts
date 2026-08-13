@@ -26,12 +26,12 @@ export const profile: Profile = {
     },
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/",
+      href: "https://www.linkedin.com/in/preetombiswasasu/",
       kind: "linkedin",
     },
     {
       label: "GitHub",
-      href: "https://github.com/",
+      href: "https://github.com/Preetom1905011",
       kind: "github",
     },
   ],
