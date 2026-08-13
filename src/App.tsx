@@ -11,7 +11,7 @@ export function App() {
       <footer className="site-footer">
         <div className="footer-content">
           <p>© 2026 Preetom Biswas</p>
-          <p>Site Last Updated: August 12, 2026</p>
+          <p>Site Last Updated: {__BUILD_DATE__}</p>
         </div>
       </footer>
     </>

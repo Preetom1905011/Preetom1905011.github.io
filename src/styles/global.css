@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Lora:wght@500;600;700&display=swap");
 
 :root {
   color: #1f3447;
@@ -540,7 +540,9 @@ code {
   margin-left: calc(50% - 50dvw);
   overflow-x: auto;
   overscroll-behavior-x: contain;
-  padding: 0.5rem 1rem 1.5rem;
+  padding: 0.5rem 0 1.5rem;
+  scroll-padding-inline: calc(50% - 110px);
+  scroll-snap-type: x mandatory;
   scrollbar-width: none;
 }
 
@@ -554,7 +556,7 @@ code {
   min-width: 100%;
   justify-content: center;
   gap: 1.25rem;
-  padding: 0 max(0.75rem, calc(50dvw - 11rem));
+  padding: 0 max(0.75rem, calc(50dvw - 110px));
 }
 
 .polaroid {
@@ -563,6 +565,8 @@ code {
   background: #fff;
   box-shadow: 0 0.4rem 1rem rgba(31, 52, 71, 0.16);
   padding: 0.7rem 0.7rem 1rem;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
   transform: rotate(-1deg);
 }
 
