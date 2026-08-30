@@ -11,7 +11,7 @@ export const profile: Profile = {
   photoUrl: "./mugshot2.jpeg",
   bio: [
     {
-      text: "I am an incoming Ph.D. student in Computer Science & Engineering at the "
+      text: "I am an incoming Ph.D. student and Graduate Student Research Assistant in Computer Science & Engineering at the "
     },
     {
       text: "University of Michigan",
@@ -23,6 +23,9 @@ export const profile: Profile = {
     {
       text: "Prof. Alexander Rodríguez",
       href: "https://alrodri.engin.umich.edu/"
+    },
+    {
+      text: ". I am also a MICDE Fellow for 2026-2027, supported by the Michigan Institute for Computational Discovery & Engineering (MICDE)."
     },
     {
       text: ". I completed my Master's (Thesis) and Bachelor's in Computer Science at Arizona State University, advised by "

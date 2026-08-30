@@ -110,4 +110,25 @@ export const news: NewsItem[] = [
       { text: " from Arizona State University." },
     ],
   },
+  
+  {
+    day: "25",
+    month: "August",
+    year: 2026,
+    content: [
+      { text: "Appointed as " },
+      { text: "Graduate Student Research Assistant ", bold: true },
+      { text: "in ComplexAI Lab under Prof. Alexander Rodriguez." },
+    ],
+  },
+  {
+    day: "31",
+    month: "August",
+    year: 2026,
+    content: [
+      { text: "Received " },
+      { text: "MICDE Fellowship 2026-2027", bold: true },
+      { text: "from Michigan Institute for Computational Discovery & Engineering." },
+    ],
+  },
 ];
