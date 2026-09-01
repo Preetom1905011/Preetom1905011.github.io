@@ -127,7 +127,7 @@ export const news: NewsItem[] = [
     year: 2026,
     content: [
       { text: "Received " },
-      { text: "MICDE Fellowship 2026-2027", bold: true },
+      { text: "MICDE Fellowship 2026-2027 ", bold: true },
       { text: "from Michigan Institute for Computational Discovery & Engineering." },
     ],
   },

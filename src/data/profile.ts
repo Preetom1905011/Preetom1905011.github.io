@@ -25,7 +25,7 @@ export const profile: Profile = {
       href: "https://alrodri.engin.umich.edu/"
     },
     {
-      text: ". I am also a MICDE Fellow for 2026-2027, supported by the Michigan Institute for Computational Discovery & Engineering (MICDE)."
+      text: ". I am also a MICDE Fellow for 2026-2027, supported by the Michigan Institute for Computational Discovery & Engineering (MICDE)"
     },
     {
       text: ". I completed my Master's (Thesis) and Bachelor's in Computer Science at Arizona State University, advised by "
