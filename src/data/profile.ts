@@ -38,14 +38,14 @@ export const profile: Profile = {
       text: ". My research focuses on "
     },
     {
-      text: "causal inference, scenario generation, ",
+      text: "AI for Science, scenario generation, ",
       bold: true,
     },
     {
       text: "and " 
     },
     {
-      text: "AI for Science",
+      text: "causal inference",
       bold: true,
     },
     {
@@ -54,16 +54,16 @@ export const profile: Profile = {
   ],
   researchFocus: [
     {
-      title: "Causal Inference",
-      description: "Formal logic, counterfactual reasoning, and causal discovery in complex dynamic systems.",
+      title: "AI for Science",
+      description: "Multi-agent systems, time-series forecasting, AI-driven scientific modeling for epidemiology, public health, and autonomous systems.",
     },
     {
       title: "Scenario Generation",
       description: "Rare-event generation and falsification using Gaussian-process surrogates, Bayesian optimization, and diffusion models.",
     },
     {
-      title: "AI for Science",
-      description: "Multi-agent systems, time-series forecasting, AI-driven scientific modeling for epidemiology and public health.",
+      title: "Causal Inference",
+      description: "Formal logic, counterfactual reasoning, and causal discovery in complex dynamic systems.",
     },
   ],
   about: [
