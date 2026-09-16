@@ -49,5 +49,5 @@ export const hobbyPhotos: HobbyPhoto[] = [
   {src: "./drawing1.jpeg", alt: "drawing 1", caption: ""},
   {src: "./concert.jpeg", alt: "concert", caption: ""},
   {src: "./drawing2.jpeg", alt: "drawing 2", caption: ""},
-  {src: "./cookies.jpeg", alt: "cookies", caption: ""},
+  {src: "./cookies.jpg", alt: "cookies", caption: ""},
 ];
